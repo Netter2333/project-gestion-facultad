@@ -39,4 +39,7 @@ public class Persona {
         }
     }
 
+    public int obtenerDni() {return this.dni;}
+
+    public int obtenerEstadoCivil () {return this.estadoCivil;}
 }

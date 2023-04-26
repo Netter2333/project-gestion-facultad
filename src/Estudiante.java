@@ -7,10 +7,11 @@ public class Estudiante extends Persona{
 
     public void matricular(int curso) {
         this.curso = curso;
-        System.out.println("El estudiante se ha matriculado al curso: " + curso);
     }
 
     public int obtenerCurso() {
         return this.curso;
     }
+
+    public int obtenerDni() {return this.dni;}
 }
